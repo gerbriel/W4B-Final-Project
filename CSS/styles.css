@@ -107,12 +107,16 @@ p{
 
 
 
-
-.footer{
+footer{
+   border: 2px solid black;
+   padding: 70px;
+   margin:10px;
+}
+.footer-container{
     /* height: 150px; */
     width: auto;
-    border: 2px solid black;
-    margin: 70px;
+    /* border: 2px solid black; */
+    /* margin: 10px; */
     /* text-align: center; */
     font-family: Great Vibes;
     font-size: 15px;
@@ -122,36 +126,37 @@ p{
 
 .Centerside{
     /* float: center; */
-    padding: 5px;
     font-size: 12px;
     text-align: center;
 }
 
 
 .leftside{
-    /* float: right; */
+    float: left;
     /* position: absolute;
     right: 20px; */
 }
 
 .footnav{
     /* float: right; */
-    padding: 40px;
+    padding: 10px;
     display: inline-block;
     /* padding-bottom: 1000px; */
 }
 
 .navitems{
-    display: inline-block;
+    float: right;
+    /* display: inline-block; */
 }
 
-footerlinks{
+.footerlinks{
+    float: left;
     background-color: red;
 }
 
 
-footer-item{
-    display: in;
+.footer-item{
+    display: inline-block;
 }
 
 /* about page */
