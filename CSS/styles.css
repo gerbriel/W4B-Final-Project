@@ -109,7 +109,7 @@ p{
 
 
 .footer{
-    height: 150px;
+    /* height: 150px; */
     width: auto;
     border: 2px solid black;
     margin: 70px;
@@ -120,25 +120,42 @@ p{
 }
 
 
-.rightside{
-    float: center;
+.Centerside{
+    /* float: center; */
     padding: 5px;
     font-size: 12px;
     text-align: center;
 }
 
 
+.leftside{
+    /* float: right; */
+    /* position: absolute;
+    right: 20px; */
+}
+
 .footnav{
-    float: right;
+    /* float: right; */
     padding: 40px;
+    display: inline-block;
     /* padding-bottom: 1000px; */
 }
 
+.navitems{
+    display: inline-block;
+}
 
 footerlinks{
     background-color: red;
 }
 
+
+footer-item{
+    display: in;
+}
+
+/* about page */
 #aboutme{
     text-align: center;
 }
+/* about page */
